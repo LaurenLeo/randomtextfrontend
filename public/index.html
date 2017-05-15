@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"  ng-app="someQuotes" ng-controller="myControl" ng-href="quotes" ng-click="showQuote()">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Chonburi|Tinos" rel="stylesheet">
+
   <title>Alan Watts Quotes</title>
 </head>
-<body ng-app="someQuotes" ng-controller="myControl" ng-href="quotes" ng-click="showQuote()" >
-  <h1>The Most Mind-Opening Alan Watts Quotes</h1>
-
-<img src="images/alan-watts.jpg" >
+<body >
+  <h1>The Most Mind-Opening <br>Alan Watts Quotes</h1>
 
 <p id="quotes">{{quotes}}</p>
 </body>

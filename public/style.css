@@ -1,0 +1,22 @@
+body {
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-image: url(images/alan-watts.jpg);
+
+}
+
+h1 {
+  margin: 40px 50px;
+  font-family: 'Chonburi', cursive;
+  font-size: 300%;
+}
+
+p {
+  margin: 100px 100px;
+  padding-right: 600px;
+  font-family: 'Tinos', serif;
+  z-index: 2;
+  font-size: 140%;
+}
